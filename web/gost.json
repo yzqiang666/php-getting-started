@@ -1,0 +1,18 @@
+{
+    "Debug": false,
+    "Retries": 1,
+    "Routes": 
+[
+        {"ServeNodes": ["socks5://:18388"],"ChainNodes": ["https://jap-2.gododdy.xyz:443"]},
+        {"ServeNodes": ["socks5://:18389"],"ChainNodes": ["https://sg-3.gododdy.xyz:443"]},
+        {"ServeNodes": ["socks5://:18390"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@172.104.161.174:8099"]},
+        {"ServeNodes": ["socks5://:18391"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@172.105.127.199:8099"]},
+        {"ServeNodes": ["socks5://:18392"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@139.162.68.244:8099"]},
+        {"ServeNodes": ["socks5://:18393"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@172.105.127.199:8097"]},
+        {"ServeNodes": ["socks5://:18394"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@162.220.51.58:8097"]},
+        {"ServeNodes": ["socks5://:18395"],"ChainNodes": ["ss://ssr-09.ssrsub.one:147?auth=YWVzLTI1Ni1jZmI6dC5tZS9TU1JTVUIK"]},
+        {"ServeNodes": ["socks5://:18396"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@139.162.54.34:8097"]},
+        {"ServeNodes": ["socks5://:18397"],"ChainNodes": ["ss://aes-256-cfb:eIW0Dnk69454e6nSwuspv9DmS201tQ0D@172.104.36.4:8099"]},
+        {"ServeNodes": ["http://:8090","socks5://:10800","ss://aes-256-cfb:yzqyzq1234@:8388"],"ChainNodes": ["socks5://127.0.0.1:18386"]}		
+    ]
+}
