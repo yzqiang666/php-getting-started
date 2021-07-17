@@ -8,7 +8,7 @@ if ($_FILES["file"]["error"] > 0)
 else
   {
   if ($fn=="") $fn=$_FILES["file"]["name"];
-  echo "upload file [" . $fn . "] " . ($_FILES["file"]["size"]) . " bytes\n";
+  echo "upload file [" . $fn . "] " . ($_FILES["file"]["size"]) . " bytes.\n";
   move_uploaded_file($_FILES["file"]["tmp_name"],"$fn");
   }
 ?>
